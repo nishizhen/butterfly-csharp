@@ -1,6 +1,6 @@
 ﻿using System;
 using AspectCore.DynamicProxy;
-using Housecool.Butterfly.DataContract.Tracing;
+using Butterfly.DataContract.Tracing;
 
 namespace Housecool.Butterfly.Client
 {

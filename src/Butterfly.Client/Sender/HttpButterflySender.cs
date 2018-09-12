@@ -5,7 +5,8 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Housecool.Butterfly.DataContract.Tracing;
+using Butterfly.DataContract.Tracing;
+using Butterfly.DataContract.Tracing;
 using MessagePack;
 using Newtonsoft.Json;
 

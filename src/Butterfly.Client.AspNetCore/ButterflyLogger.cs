@@ -1,5 +1,5 @@
 ﻿using System;
-using IButterflyLogger = Butterfly.Client.Logging.ILogger;
+using IButterflyLogger = Housecool.Butterfly.Client.Logging.ILogger;
 using Microsoft.Extensions.Logging;
 
 namespace Housecool.Butterfly.Client.AspNetCore

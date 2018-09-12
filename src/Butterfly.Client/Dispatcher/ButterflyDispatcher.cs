@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Housecool.Butterfly.Client.Logging;
-using Housecool.Butterfly.DataContract.Tracing;
+using Butterfly.DataContract.Tracing;
 
 namespace Housecool.Butterfly.Client
 {
