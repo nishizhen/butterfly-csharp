@@ -8,7 +8,7 @@
     <PackageTags>OpenTracing;Tracing</PackageTags>
     <PackageReleaseNotes>
     </PackageReleaseNotes>
-    <TargetFrameworks>netcoreapp2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <RootNamespace>Housecool.Butterfly.Client.AspNetCore</RootNamespace>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -16,20 +16,20 @@
     <PackageProjectUrl>https://github.com/nishizhen/butterfly-csharp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/nishizhen/butterfly-csharp</RepositoryUrl>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
-    <Version>0.0.10</Version>
+    <Version>0.0.11</Version>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Butterfly.Client\Butterfly.Client.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="AspectCore.Extensions.DependencyInjection" Version="0.7.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.0.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Routing.Abstractions" Version="2.0.0" />
-    <PackageReference Include="Microsoft.Extensions.DiagnosticAdapter" Version="2.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Options" Version="2.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.0.0" />
-    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.4.1" />
+    <PackageReference Include="AspectCore.Extensions.DependencyInjection" Version="1.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DiagnosticAdapter" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.1.1" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.5.0" />
   </ItemGroup>
 </Project>
