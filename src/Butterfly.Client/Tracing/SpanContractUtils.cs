@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using Butterfly.OpenTracing;
+using Housecool.Butterfly.OpenTracing;
 using BaggageContract = Butterfly.DataContract.Tracing.Baggage;
 using LogFieldContract = Butterfly.DataContract.Tracing.LogField;
 using SpanReferenceContract = Butterfly.DataContract.Tracing.SpanReference;
@@ -7,7 +7,7 @@ using SpanContract = Butterfly.DataContract.Tracing.Span;
 using LogContract = Butterfly.DataContract.Tracing.Log;
 using TagContract = Butterfly.DataContract.Tracing.Tag;
 
-namespace Butterfly.Client.Tracing
+namespace Housecool.Butterfly.Client.Tracing
 {
     public static class SpanContractUtils
     {

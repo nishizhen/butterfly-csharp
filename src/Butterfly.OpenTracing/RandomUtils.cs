@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Butterfly.OpenTracing
+namespace Housecool.Butterfly.OpenTracing
 {
     /// <summary>
     /// Thread-safe random long generator.

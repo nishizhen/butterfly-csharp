@@ -1,4 +1,4 @@
-﻿namespace Butterfly.OpenTracing
+﻿namespace Housecool.Butterfly.OpenTracing
 {
     public static class LogFields
     {

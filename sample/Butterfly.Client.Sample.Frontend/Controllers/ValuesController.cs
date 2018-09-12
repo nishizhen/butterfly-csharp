@@ -1,9 +1,9 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
-using Butterfly.Client.Tracing;
+using Housecool.Butterfly.Client.Tracing;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Butterfly.Client.Sample.Frontend.Controllers
+namespace Housecool.Butterfly.Client.Sample.Frontend.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller

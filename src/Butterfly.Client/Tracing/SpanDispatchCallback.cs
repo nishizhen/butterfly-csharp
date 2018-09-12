@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Butterfly.Client.Logging;
-using Butterfly.DataContract.Tracing;
+using Housecool.Butterfly.Client.Logging;
+using Housecool.Butterfly.DataContract.Tracing;
 
-namespace Butterfly.Client
+namespace Housecool.Butterfly.Client
 {
     public class SpanDispatchCallback : IDispatchCallback
     {

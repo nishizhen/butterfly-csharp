@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Butterfly.Client.Logging;
+using Housecool.Butterfly.Client.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Butterfly.Client.AspNetCore
+namespace Housecool.Butterfly.Client.AspNetCore
 {
     public class ButterflyDispatcherProvider : IButterflyDispatcherProvider
     {

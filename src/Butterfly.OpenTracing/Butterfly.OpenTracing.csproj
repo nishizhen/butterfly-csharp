@@ -6,11 +6,16 @@
     <AssemblyTitle>Butterfly.OpenTracing</AssemblyTitle>
     <TargetFrameworks>netstandard1.6;net45</TargetFrameworks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <AssemblyName>Butterfly.OpenTracing</AssemblyName>
-    <PackageId>Butterfly.OpenTracing</PackageId>
+    <AssemblyName>Housecool.Butterfly.OpenTracing</AssemblyName>
+    <PackageId>Housecool.Butterfly.OpenTracing</PackageId>
     <PackageTags>OpenTracing;Tracing</PackageTags>
     <PackageReleaseNotes>
     </PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/nishizhen/butterfly-csharp/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/nishizhen/butterfly-csharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nishizhen/butterfly-csharp</RepositoryUrl>
+    <RootNamespace>Housecool.Butterfly.OpenTracing</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard1.6|AnyCPU'">
     <DefineConstants>TRACE;DEBUG;NETSTANDARD1_6</DefineConstants>

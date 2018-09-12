@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Attributes.Columns;
-using Butterfly.Client.Benckmark.Formatter.Mock;
-using Butterfly.Client.Tracing;
-using Butterfly.OpenTracing;
+using Housecool.Butterfly.Client.Benckmark.Formatter.Mock;
+using Housecool.Butterfly.Client.Tracing;
+using Housecool.Butterfly.OpenTracing;
 using MessagePack;
 using Newtonsoft.Json;
 
-namespace Butterfly.Client.Benckmark.Formatter
+namespace Housecool.Butterfly.Client.Benckmark.Formatter
 {
     [MemoryDiagnoser]
     [AllStatisticsColumn]

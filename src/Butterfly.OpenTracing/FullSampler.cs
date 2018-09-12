@@ -1,6 +1,6 @@
-﻿using Butterfly.OpenTracing;
+﻿using Housecool.Butterfly.OpenTracing;
 
-namespace Butterfly.OpenTracing
+namespace Housecool.Butterfly.OpenTracing
 {
     public class FullSampler : ISampler
     {

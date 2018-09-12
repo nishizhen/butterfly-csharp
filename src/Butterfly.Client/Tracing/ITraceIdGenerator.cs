@@ -1,4 +1,4 @@
-﻿namespace Butterfly.Client.Tracing
+﻿namespace Housecool.Butterfly.Client.Tracing
 {
     public interface ITraceIdGenerator
     {

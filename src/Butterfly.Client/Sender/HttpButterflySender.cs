@@ -5,11 +5,11 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Butterfly.DataContract.Tracing;
+using Housecool.Butterfly.DataContract.Tracing;
 using MessagePack;
 using Newtonsoft.Json;
 
-namespace Butterfly.Client
+namespace Housecool.Butterfly.Client
 {
     public class HttpButterflySender : IButterflySender
     {

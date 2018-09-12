@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Butterfly.OpenTracing
+namespace Housecool.Butterfly.OpenTracing
 {
     public static class LogFieldExtensions
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Primitives;
 using System.Linq;
 
-namespace Butterfly.Client.AspNetCore
+namespace Housecool.Butterfly.Client.AspNetCore
 {
     internal static class StringValueExtensions
     {

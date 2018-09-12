@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Butterfly.Client.Tracing;
-using Butterfly.OpenTracing;
+using Housecool.Butterfly.Client.Tracing;
+using Housecool.Butterfly.OpenTracing;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 
-namespace Butterfly.Client.AspNetCore
+namespace Housecool.Butterfly.Client.AspNetCore
 {
     public class RequestTracer : IRequestTracer
     {

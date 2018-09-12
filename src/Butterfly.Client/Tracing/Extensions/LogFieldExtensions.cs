@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Butterfly.OpenTracing;
+using Housecool.Butterfly.OpenTracing;
 
-namespace Butterfly.Client.Tracing
+namespace Housecool.Butterfly.Client.Tracing
 {
     public static class LogFieldExtensions
     {

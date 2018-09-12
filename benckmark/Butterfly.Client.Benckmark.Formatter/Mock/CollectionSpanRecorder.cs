@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Butterfly.Client.Tracing;
-using Butterfly.OpenTracing;
+using Housecool.Butterfly.Client.Tracing;
+using Housecool.Butterfly.OpenTracing;
 
-namespace Butterfly.Client.Benckmark.Formatter.Mock
+namespace Housecool.Butterfly.Client.Benckmark.Formatter.Mock
 {
     class CollectionSpanRecorder : ISpanRecorder
     {

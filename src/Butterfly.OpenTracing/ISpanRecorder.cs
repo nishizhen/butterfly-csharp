@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Butterfly.OpenTracing
+namespace Housecool.Butterfly.OpenTracing
 {
     public interface ISpanRecorder
     {

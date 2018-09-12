@@ -5,7 +5,7 @@ using System.Threading;
 #endif
 
 
-namespace Butterfly.OpenTracing
+namespace Housecool.Butterfly.OpenTracing
 {
     internal static class SpanLocal
     {

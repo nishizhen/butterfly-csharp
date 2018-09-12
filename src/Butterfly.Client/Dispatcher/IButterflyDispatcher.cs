@@ -1,8 +1,8 @@
 ﻿using System;
 using AspectCore.DynamicProxy;
-using Butterfly.DataContract.Tracing;
+using Housecool.Butterfly.DataContract.Tracing;
 
-namespace Butterfly.Client
+namespace Housecool.Butterfly.Client
 {
     public interface IButterflyDispatcher : IDisposable
     {

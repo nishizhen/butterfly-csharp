@@ -3,12 +3,18 @@
   <PropertyGroup>
     <Description>A Asp.Net Core client for Butterfly.</Description>
     <AssemblyTitle>Butterfly.Client.AspNetCore</AssemblyTitle>
-    <AssemblyName>Butterfly.Client.AspNetCore</AssemblyName>
-    <PackageId>Butterfly.Client.AspNetCore</PackageId>
+    <AssemblyName>Housecool.Butterfly.Client.AspNetCore</AssemblyName>
+    <PackageId>Housecool.Butterfly.Client.AspNetCore</PackageId>
     <PackageTags>OpenTracing;Tracing</PackageTags>
     <PackageReleaseNotes>
     </PackageReleaseNotes>
     <TargetFrameworks>netcoreapp2.0;net461</TargetFrameworks>
+    <RootNamespace>Housecool.Butterfly.Client.AspNetCore</RootNamespace>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/nishizhen/butterfly-csharp/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/nishizhen/butterfly-csharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nishizhen/butterfly-csharp</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Butterfly.Client\Butterfly.Client.csproj" />

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Butterfly.OpenTracing
+namespace Housecool.Butterfly.OpenTracing
 {
     public class SpanBuilder : ISpanBuilder
     {

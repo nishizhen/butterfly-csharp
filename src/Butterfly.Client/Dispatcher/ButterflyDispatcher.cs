@@ -3,10 +3,10 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Butterfly.Client.Logging;
-using Butterfly.DataContract.Tracing;
+using Housecool.Butterfly.Client.Logging;
+using Housecool.Butterfly.DataContract.Tracing;
 
-namespace Butterfly.Client
+namespace Housecool.Butterfly.Client
 {
     public class ButterflyDispatcher : IButterflyDispatcher
     {

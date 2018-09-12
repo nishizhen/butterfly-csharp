@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Butterfly.Client.Sample.Backend.Services
+namespace Housecool.Butterfly.Client.Sample.Backend.Services
 {
     public class ValuesService : IValuesService
     {

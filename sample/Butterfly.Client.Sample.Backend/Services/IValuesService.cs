@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Butterfly.Client.Tracing;
+using Housecool.Butterfly.Client.Tracing;
 
-namespace Butterfly.Client.Sample.Backend.Services
+namespace Housecool.Butterfly.Client.Sample.Backend.Services
 {
     public interface IValuesService
     {

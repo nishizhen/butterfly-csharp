@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Butterfly.Client.Tests
+namespace Housecool.Butterfly.Client.Tests
 {
     public class UnitTest1
     {

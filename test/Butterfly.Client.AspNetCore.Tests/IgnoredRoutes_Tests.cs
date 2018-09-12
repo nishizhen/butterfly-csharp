@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 using Xunit;
 
-namespace Butterfly.Client.AspNetCore.Tests
+namespace Housecool.Butterfly.Client.AspNetCore.Tests
 {
     public class IgnoredRoutes_Tests
     {

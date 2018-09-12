@@ -1,8 +1,8 @@
 ﻿using System;
-using Butterfly.OpenTracing;
+using Housecool.Butterfly.OpenTracing;
 using Microsoft.AspNetCore.Http;
 
-namespace Butterfly.Client.AspNetCore
+namespace Housecool.Butterfly.Client.AspNetCore
 {
     public interface IRequestTracer
     {

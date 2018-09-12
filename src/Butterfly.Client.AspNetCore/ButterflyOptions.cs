@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 
-namespace Butterfly.Client.AspNetCore
+namespace Housecool.Butterfly.Client.AspNetCore
 {
     public class ButterflyOptions : ButterflyConfig , IOptions<ButterflyOptions>
     {

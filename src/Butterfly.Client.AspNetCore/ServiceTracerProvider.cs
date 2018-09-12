@@ -1,10 +1,10 @@
 ﻿using System.Net;
-using Butterfly.Client.Tracing;
-using Butterfly.OpenTracing;
+using Housecool.Butterfly.Client.Tracing;
+using Housecool.Butterfly.OpenTracing;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Options;
 
-namespace Butterfly.Client.AspNetCore
+namespace Housecool.Butterfly.Client.AspNetCore
 {
     public class ServiceTracerProvider : IServiceTracerProvider
     {

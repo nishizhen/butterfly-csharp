@@ -3,9 +3,9 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using AspectCore.DynamicProxy;
-using Butterfly.OpenTracing;
+using Housecool.Butterfly.OpenTracing;
 
-namespace Butterfly.Client.Tracing
+namespace Housecool.Butterfly.Client.Tracing
 {
     [NonAspect]
     public class HttpTracingHandler : DelegatingHandler

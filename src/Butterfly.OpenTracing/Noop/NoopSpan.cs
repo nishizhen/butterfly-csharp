@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Butterfly.OpenTracing.Noop
+namespace Housecool.Butterfly.OpenTracing.Noop
 {
     public class NoopSpan : ISpan
     {

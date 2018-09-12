@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Butterfly.Client
+namespace Housecool.Butterfly.Client
 {
     public class DispatchableToken : IEquatable<DispatchableToken>
     {

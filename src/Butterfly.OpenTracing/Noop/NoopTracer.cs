@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Butterfly.OpenTracing.Noop
+namespace Housecool.Butterfly.OpenTracing.Noop
 {
     public class NoopTracer : ITracer
     {

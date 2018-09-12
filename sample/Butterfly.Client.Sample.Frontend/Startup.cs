@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Butterfly.Client.AspNetCore;
-using Butterfly.Client.Tracing;
+using Housecool.Butterfly.Client.AspNetCore;
+using Housecool.Butterfly.Client.Tracing;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -12,7 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Butterfly.Client.Sample.Frontend
+namespace Housecool.Butterfly.Client.Sample.Frontend
 {
     public class Startup
     {

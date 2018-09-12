@@ -1,4 +1,4 @@
-﻿namespace Butterfly.Client
+﻿namespace Housecool.Butterfly.Client
 {
     public interface IButterflySenderProvider
     {

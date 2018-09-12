@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using AspectCore.Configuration;
 using AspectCore.DynamicProxy;
 using AspectCore.Extensions.Reflection;
-using Butterfly.OpenTracing;
+using Housecool.Butterfly.OpenTracing;
 
-namespace Butterfly.Client.Tracing
+namespace Housecool.Butterfly.Client.Tracing
 {
     public class TraceAttribute : AbstractInterceptorAttribute
     {

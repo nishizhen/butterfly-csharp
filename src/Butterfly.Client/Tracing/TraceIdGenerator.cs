@@ -1,6 +1,6 @@
-﻿using Butterfly.OpenTracing;
+﻿using Housecool.Butterfly.OpenTracing;
 
-namespace Butterfly.Client.Tracing
+namespace Housecool.Butterfly.Client.Tracing
 {
     public class TraceIdGenerator : ITraceIdGenerator
     {

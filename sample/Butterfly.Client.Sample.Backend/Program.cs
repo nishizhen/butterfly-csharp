@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Butterfly.Client.Sample.Backend
+namespace Housecool.Butterfly.Client.Sample.Backend
 {
     public class Program
     {

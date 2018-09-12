@@ -1,7 +1,7 @@
 ﻿using System;
 using AspectCore.DynamicProxy;
 
-namespace Butterfly.Client.Logging
+namespace Housecool.Butterfly.Client.Logging
 {
     public interface ILogger
     {

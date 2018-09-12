@@ -1,11 +1,11 @@
-﻿using Butterfly.OpenTracing;
+﻿using Housecool.Butterfly.OpenTracing;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Abstractions;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DiagnosticAdapter;
 
-namespace Butterfly.Client.AspNetCore
+namespace Housecool.Butterfly.Client.AspNetCore
 {
     public class MvcTracingDiagnosticListener : ITracingDiagnosticListener
     {

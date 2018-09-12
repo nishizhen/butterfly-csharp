@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Butterfly.OpenTracing
+namespace Housecool.Butterfly.OpenTracing
 {
     public class LogField : Dictionary<string, object>
     {

@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Butterfly.DataContract.Tracing;
+using Housecool.Butterfly.DataContract.Tracing;
 
-namespace Butterfly.Client
+namespace Housecool.Butterfly.Client
 {
     public interface IButterflySender
     {

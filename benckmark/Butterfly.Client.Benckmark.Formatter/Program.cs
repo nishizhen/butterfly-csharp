@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Butterfly.Client.Benckmark.Formatter
+namespace Housecool.Butterfly.Client.Benckmark.Formatter
 {
     class Program
     {

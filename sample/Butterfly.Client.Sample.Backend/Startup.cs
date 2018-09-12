@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Butterfly.Client.AspNetCore;
-using Butterfly.Client.Sample.Backend.Services;
+using Housecool.Butterfly.Client.AspNetCore;
+using Housecool.Butterfly.Client.Sample.Backend.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using AspectCore.Extensions.DependencyInjection;
 
-namespace Butterfly.Client.Sample.Backend
+namespace Housecool.Butterfly.Client.Sample.Backend
 {
     public class Startup
     {

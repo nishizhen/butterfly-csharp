@@ -2,7 +2,7 @@
 using IButterflyLogger = Butterfly.Client.Logging.ILogger;
 using Microsoft.Extensions.Logging;
 
-namespace Butterfly.Client.AspNetCore
+namespace Housecool.Butterfly.Client.AspNetCore
 {
     public class ButterflyLogger : IButterflyLogger
     {

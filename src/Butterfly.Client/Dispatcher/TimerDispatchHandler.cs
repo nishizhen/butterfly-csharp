@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Butterfly.Client.Logging;
+using Housecool.Butterfly.Client.Logging;
 
-namespace Butterfly.Client
+namespace Housecool.Butterfly.Client
 {
     internal class TimerDispatchHandler : IDisposable
     {

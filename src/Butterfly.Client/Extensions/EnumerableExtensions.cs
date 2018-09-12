@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Butterfly.Client
+namespace Housecool.Butterfly.Client
 {
     internal static class EnumerableExtensions
     {

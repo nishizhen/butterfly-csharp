@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AspectCore.DynamicProxy;
 
-namespace Butterfly.Client
+namespace Housecool.Butterfly.Client
 {
     [NonAspect]
     public interface IDispatchCallback

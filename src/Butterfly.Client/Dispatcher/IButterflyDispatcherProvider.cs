@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Butterfly.Client
+namespace Housecool.Butterfly.Client
 {
     public interface IButterflyDispatcherProvider
     {

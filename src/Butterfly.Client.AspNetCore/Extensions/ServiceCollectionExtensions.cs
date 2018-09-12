@@ -1,15 +1,15 @@
 ﻿using System;
 using AspectCore.Configuration;
 using AspectCore.Extensions.DependencyInjection;
-using Butterfly.Client.Logging;
-using Butterfly.Client.Tracing;
-using Butterfly.OpenTracing;
+using Housecool.Butterfly.Client.Logging;
+using Housecool.Butterfly.Client.Tracing;
+using Housecool.Butterfly.OpenTracing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 
-namespace Butterfly.Client.AspNetCore
+namespace Housecool.Butterfly.Client.AspNetCore
 {
     public static class ServiceCollectionExtensions
     {

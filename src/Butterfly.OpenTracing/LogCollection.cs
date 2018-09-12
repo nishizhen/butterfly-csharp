@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace Butterfly.OpenTracing
+namespace Housecool.Butterfly.OpenTracing
 {
     public class LogCollection : Collection<LogData>
     {

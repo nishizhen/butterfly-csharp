@@ -1,6 +1,6 @@
 ﻿using AspectCore.DynamicProxy;
 
-namespace Butterfly.Client.AspNetCore
+namespace Housecool.Butterfly.Client.AspNetCore
 {
     [NonAspect]
     public interface ITracingDiagnosticListener
