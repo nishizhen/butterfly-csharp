@@ -1,10 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\..\build\common.props" />
-  <Import Project="..\..\build\net45.props" />
   <PropertyGroup>
     <Description>Reference implementation of OpenTracing API</Description>
     <AssemblyTitle>Butterfly.OpenTracing</AssemblyTitle>
-    <TargetFrameworks>netstandard1.6;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AssemblyName>Housecool.Butterfly.OpenTracing</AssemblyName>
     <PackageId>Housecool.Butterfly.OpenTracing</PackageId>
@@ -17,8 +16,8 @@
     <RepositoryUrl>https://github.com/nishizhen/butterfly-csharp</RepositoryUrl>
     <RootNamespace>Housecool.Butterfly.OpenTracing</RootNamespace>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard1.6|AnyCPU'">
-    <DefineConstants>TRACE;DEBUG;NETSTANDARD1_6</DefineConstants>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;NETSTANDARD2_0</DefineConstants>
     <LangVersion>default</LangVersion>
   </PropertyGroup>
 </Project>
