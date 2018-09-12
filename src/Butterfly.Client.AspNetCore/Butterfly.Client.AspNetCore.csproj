@@ -8,7 +8,7 @@
     <PackageTags>OpenTracing;Tracing</PackageTags>
     <PackageReleaseNotes>
     </PackageReleaseNotes>
-    <TargetFrameworks>netcoreapp2.1</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.0</TargetFrameworks>
     <RootNamespace>Housecool.Butterfly.Client.AspNetCore</RootNamespace>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
